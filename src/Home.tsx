@@ -98,7 +98,7 @@ function Home() {
 
         <a href={kistenBild} target="_blank" rel="noopener noreferrer">
           <img
-            src="/src/assets/kiste.png"
+            src={kistenBild}
             alt="KI in der Kiste"
             style={{
               maxWidth: "400px",
