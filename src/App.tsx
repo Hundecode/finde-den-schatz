@@ -1,14 +1,15 @@
-import Board from './components/Board'
-import './App.css'
+import { Routes, Route } from 'react-router-dom';
+import Home from './Home';
+import Game from './Game';
+import './App.css';
 
 function App() {
-
   return (
-    <>
-      <h1>Finde den Schatz</h1>
-      <Board/>
-    </>
-  )
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/game" element={<Game />} />
+    </Routes>
+  );
 }
 
-export default App
+export default App;
