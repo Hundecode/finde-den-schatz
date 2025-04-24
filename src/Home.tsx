@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import waterBackground from "./assets/water.jpg";
 import kistenBild from "./assets/kiste.png";
+import printMaterial from "./assets/kiste.png";
 
 function Home() {
   return (
@@ -24,7 +25,7 @@ function Home() {
 
       <div style={{ marginBottom: "3rem" }}>
         <a
-          href="/finde-den-schatz/print/material_v1.pdf"
+          href={printMaterial}
           target="_blank"
           rel="noopener noreferrer"
         >
