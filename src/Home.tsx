@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import waterBackground from "./assets/water.jpg";
 import kistenBild from "./assets/kiste.png";
-import printMaterial from "./assets/kiste.png";
+import printMaterial from "./print/material_v1.pdf";
 
 function Home() {
   return (
